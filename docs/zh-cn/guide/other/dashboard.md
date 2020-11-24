@@ -23,7 +23,7 @@ $ pandora start --name dashboard `pandora-dashboard-dir` # 使用该命令获得
  默认，Dashboard 监听在 `http://127.0.0.1:9081`，你也可以改变这一默认行为。
    
 ```bash
-pandora start --name dashboard --env "DASHBORAD_PORT=9081 DASHBOARD_HOST=0.0.0.0" --npm pandora-dashboard
+pandora start --name dashboard --env "DASHBOARD_PORT=9081 DASHBOARD_HOST=0.0.0.0" --npm pandora-dashboard
 ```
 
 ## 美图赏析
